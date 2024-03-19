@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Ubuntu';
+}
+
+body {
+    overflow-x: hidden;
+    /* perspective: 200px; */
+}
+
+#hr1 {
+    background-color: rgb(91, 91, 91);
+    width: 100vw;
+    margin-top:55px;
+    height: 8px;
+}
+
+.apparent {
+    height: 100vh;
+    width: 100vw;
+    /* rotate:10deg; */
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    /* border-radius: 35%; */
+}
+
+.navbar {
+    position: relative;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin: 20px 135px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#img {
+    margin-top: 10px;
+    margin-left: 19px;
+}
+
+#h4 {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#search {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 20px 135px;
+    color: rgb(0, 0, 0);
+}
+
+
+header::before {
+    content: "";
+    background: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg") no-repeat center center/cover;
+    position: absolute;
+    /* transform: rotateY('30deg'); */
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+.box {
+    text-align: center;
+    position: relative;
+    margin-top: 130px;
+}
+
+#h3 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 30px;
+    color: antiquewhite;
+}
+
+#content {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 425px;
+    width: 700px;
+    color: antiquewhite;
+    /* margin: 23px; */
+}
+
+#h41 {
+    margin-top: 80px;
+    margin-right: 1270px;
+    color: rgb(255, 170, 170);
+    position: absolute;
+    font-size: 23px;
+}
+#h2{
+    margin-top: 23px;
+    font-size: 50px;
+    color: goldenrod;
+}
+
+.content{
+    font-size: 23px;
+    
+}
+.trophy img{
+    height:350px;
+    margin-top: 30px
+    ;
+    width: 1500px;
+}
